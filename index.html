@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Deryk.Tech | Build. Create. Digitalize.</title>
+
+    <meta name="description"
+          content="Digital products, web development and smart digital solutions by Deryk.Tech">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header>
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+           <img src="images/logo.jpeg" alt="Deryk.Tech Logo">
+        </a>
+
+        <button id="menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ≡
+        </button>
+
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="btn secondary">Get In Touch</a>
+
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- HERO SECTION: PRESERVED -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">
+                Hello. I'm Derick
+            </p>
+
+            <h1>
+                Build. Create.<br>
+                <span>Digitalize.</span>
+            </h1>
+
+            <p class="hero-description">
+                I'm a Computer Science student, developer
+                and tech enthusiast passionate about building
+                useful digital solutions.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">
+                    Explore my work →
+                </a>
+
+                <a href="#shop" class="btn secondary">
+                    Visit my shop →
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="hero-code">
+
+            <div class="editor-header">
+
+                <div class="editor-title">
+                    <span class="java-icon">☕</span>
+                    <span>DerykTech.java</span>
+                </div>
+
+                <div class="editor-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+
+            <div class="editor-body">
+
+                <div class="line-numbers" id="line-numbers"></div>
+
+                <pre><code id="java-code" class="language-java"></code><span class="cursor"></span></pre>
+
+            </div>
+
+            <div class="editor-footer">
+                <span class="status-dot"></span>
+                <span id="editor-status">Initializing Java...</span>
+                <span>Java 17</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ABOUT + SKILLS -->
+    <section id="about" class="section">
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <div class="section-heading">
+                    <p>ABOUT ME</p>
+                    <h2>Hi, I'm <span>Derick</span></h2>
+                </div>
+
+                <p>
+                    I'm a Computer Science student at Maseno University,
+                    passionate about technology, web development and
+                    building useful digital solutions.
+                </p>
+
+                <p>
+                    I enjoy turning ideas into practical applications,
+                    exploring new technologies and continuously
+                    improving my development skills.
+                </p>
+
+                <p>
+                    My goal is to create digital products and offer
+                    reliable services that help people and businesses
+                    grow.
+                </p>
+
+                <a href="#contact" class="btn primary">
+                    Learn More About Me →
+                </a>
+
+            </div>
+
+
+            <div class="about-visual">
+                <div class="about-image-placeholder">
+                    <span>&lt;/&gt;</span>
+                    <p>Building ideas into reality.</p>
+                </div>
+            </div>
+
+
+            <div id="skills" class="about-skills">
+
+                <h3>My Skills</h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">Java</div>
+                    <div class="skill-card">HTML</div>
+                    <div class="skill-card">CSS</div>
+                    <div class="skill-card">JavaScript</div>
+                    <div class="skill-card">Tailwind CSS</div>
+                    <div class="skill-card">PostgreSQL</div>
+                    <div class="skill-card">Git</div>
+                    <div class="skill-card">Maven</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- DIGITAL PRODUCTS / SHOP -->
+    <section id="shop" class="section">
+
+        <div class="section-heading">
+
+            <p>DIGITAL PRODUCTS</p>
+
+            <h2>
+                Get Instant Access to <span>Digital Products</span>
+            </h2>
+
+            <p>
+                High-quality digital resources to help you learn,
+                build and grow.
+            </p>
+
+        </div>
+
+
+        <div class="shop-grid">
+
+            <article class="product-card">
+
+                <div class="product-visual">
+                    <span>&lt;/&gt;</span>
+                </div>
+
+                <h3>Website Templates</h3>
+
+                <p>
+                    Modern, responsive website templates
+                    for your projects.
+                </p>
+
+                <h4>$15.00</h4>
+
+                <button class="btn secondary" type="button">
+                    Buy Now
+                </button>
+
+            </article>
+
+
+            <article class="product-card">
+
+                <div class="product-visual">
+                    <span>CV</span>
+                </div>
+
+                <h3>CV Templates</h3>
+
+                <p>
+                    Professional and clean CV templates
+                    for job applications.
+                </p>
+
+                <h4>$5.00</h4>
+
+                <button class="btn secondary" type="button">
+                    Buy Now
+                </button>
+
+            </article>
+
+
+            <article class="product-card">
+
+                <div class="product-visual">
+                    <span></span>
+                </div>
+
+                <h3>Study Resources</h3>
+
+                <p>
+                    Revision notes, study guides and
+                    useful academic resources.
+                </p>
+
+                <h4>$10.00</h4>
+
+                <button class="btn secondary" type="button">
+                    Buy Now
+                </button>
+
+            </article>
+
+
+            <article class="product-card">
+
+                <div class="product-visual">
+                    <span></span>
+                </div>
+
+                <h3>Programming Guides</h3>
+
+                <p>
+                    Step-by-step guides for Java,
+                    web development and more.
+                </p>
+
+                <h4>$12.00</h4>
+
+                <button class="btn secondary" type="button">
+                    Buy Now
+                </button>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FREELANCE SERVICES -->
+    <section id="services" class="section">
+
+        <div class="section-heading">
+
+            <p>FREELANCE SERVICES</p>
+
+            <h2>
+                Professional Services for <span>Your Needs</span>
+            </h2>
+
+            <p>
+                I offer affordable and reliable freelance services
+                to help you get things done.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <article class="service-card">
+
+                <div class="service-icon">⌘</div>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Modern, responsive and fast websites
+                    for businesses and personal use.
+                </p>
+
+                <h4>From $50</h4>
+
+                <a href="#contact" class="btn secondary">
+                    Request Service
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">⚙</div>
+
+                <h3>Website Customization</h3>
+
+                <p>
+                    Edit and customize existing websites
+                    using HTML, CSS and JavaScript.
+                </p>
+
+                <h4>From $20</h4>
+
+                <a href="#contact" class="btn secondary">
+                    Request Service
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">▤</div>
+
+                <h3>Data Entry</h3>
+
+                <p>
+                    Accurate and fast data entry,
+                    copy-pasting and file management.
+                </p>
+
+                <h4>From $10</h4>
+
+                <a href="#contact" class="btn secondary">
+                    Request Service
+                </a>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">▧</div>
+
+                <h3>Document Formatting</h3>
+
+                <p>
+                    Format Word, PDF and other documents
+                    professionally.
+                </p>
+
+                <h4>From $15</h4>
+
+                <a href="#contact" class="btn secondary">
+                    Request Service
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PROJECTS / PORTFOLIO -->
+    <section id="projects" class="section">
+
+        <div class="section-heading">
+
+            <p>MY PORTFOLIO</p>
+
+            <h2>My <span>Projects</span></h2>
+
+            <p>
+                Real projects I've built to improve my skills
+                and solve practical problems.
+            </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <span>
+                        <img src="images/comrades.jpeg" alt="Comrades Study Manager">
+                    </span>
+                </div>
+
+                <h3>Comrades Study Manager</h3>
+
+                <p>
+                    A multi-user study management application
+                    with course and assignment management,
+                    role-based dashboards and more.
+                </p>
+
+                <p class="project-tech">
+                    Java | PostgreSQL | HTML | CSS | JavaScript
+                </p>
+
+                <a href="#contact" class="btn secondary">
+                    View Project
+                </a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <span>
+                        <img src="images/goalTracker.jpeg" alt="Goal Tracker">
+                    </span>
+                </div>
+
+                <h3>Goal Tracker</h3>
+
+                <p>
+                    A personal productivity application
+                    for tracking goals and monitoring
+                    progress.
+                </p>
+
+                <p class="project-tech">
+                    HTML | CSS | JavaScript
+                </p>
+
+                <a href="#contact" class="btn secondary">
+                    View Project
+                </a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <span>
+                        <img src="images/portfolio.jpeg" alt="Personal Developer Portfolio">
+                    </span>
+                </div>
+
+                <h3>Personal Developer Portfolio</h3>
+
+                <p>
+                    A responsive personal website
+                    showcasing my skills, projects
+                    and development journey.
+                </p>
+
+                <p class="project-tech">
+                    HTML | CSS | JavaScript
+                </p>
+
+                <a href="#home" class="btn secondary">
+                    View Project
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="section">
+
+        <div class="section-heading">
+
+            <p>HOW IT WORKS</p>
+
+            <h2>Simple <span>Process</span></h2>
+
+            <p>
+                Getting your product or service is easy.
+                Just follow these steps.
+            </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+            <article class="process-card">
+
+                <div class="process-icon">⌕</div>
+
+                <h3>1. Browse</h3>
+
+                <p>
+                    Explore available products
+                    and services.
+                </p>
+
+            </article>
+
+
+            <article class="process-card">
+
+                <div class="process-icon">🛒</div>
+
+                <h3>2. Purchase / Request</h3>
+
+                <p>
+                    Complete your purchase
+                    or send a service request.
+                </p>
+
+            </article>
+
+
+            <article class="process-card">
+
+                <div class="process-icon">↗</div>
+
+                <h3>3. Get It</h3>
+
+                <p>
+                    Receive your product
+                    or project details.
+                </p>
+
+            </article>
+
+
+            <article class="process-card">
+
+                <div class="process-icon">✓</div>
+
+                <h3>4. Enjoy</h3>
+
+                <p>
+                    Start using your product
+                    or service.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+
+        <div class="contact-content">
+
+            <div class="contact-info">
+
+                <div class="section-heading">
+
+                    <p>GET IN TOUCH</p>
+
+                    <h2>
+                        Let's Work <span>Together</span>
+                    </h2>
+
+                </div>
+
+                <p>
+                    Have a project, question or just want
+                    to say hi? I'd love to hear from you.
+                </p>
+
+                <div class="contact-item">
+                    <span>✉</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>deryk.tech@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>☎</span>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>
+                            +254 182825506
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>⌖</span>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Maseno, Kenya</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <form id="contact-form" class="contact-form">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="your@email.com"
+                            required>
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Tell me about your project or inquiry..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="btn primary">
+                    Send Message →
+                </button>
+
+            </form>
+
+
+            <div class="contact-cta">
+
+                <h3>
+                    Let's build something great together!
+                </h3>
+
+                <span>
+                    <img src="images/logo.jpeg" alt="Deryk.Tech Logo">
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="footer-logo">
+                <img src="images/logo.jpeg" alt="Deryk.Tech Logo">
+            </a>
+
+            <p>
+                Build. Create. Digitalize.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Products</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div class="footer-socials">
+
+            <a href="https://github.com/Deryk4"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="GitHub">GitHub</a>
+
+            <a href="mailto:deryk.tech@gmail.com"
+               aria-label="Email">Email</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © <span id="current-year"></span>
+            Deryk.Tech. All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!-- SCRIPTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
